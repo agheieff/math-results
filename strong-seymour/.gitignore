@@ -1,0 +1,11 @@
+*
+!*/
+!*.py
+!*.toml
+!*.lock
+!*.md
+!*.json
+!*.sha256
+!*.cnf
+!*.drat
+!*.lrat
