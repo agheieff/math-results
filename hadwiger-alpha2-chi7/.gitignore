@@ -1,0 +1,10 @@
+*
+!*/
+!/.gitignore
+!/README.md
+!/PROOF.md
+!/PRIOR_ART.md
+!/pyproject.toml
+!/uv.lock
+!/src/**/*.py
+!/tests/**/*.py
