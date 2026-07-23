@@ -1,0 +1,83 @@
+{
+  "classes": [
+    {
+      "dense_complement_factorization": "x(x-n)^(n-6)(x-n+4)(x-n+3)(x-n+2)^2(x-n+1)",
+      "dense_complement_polynomial_n9": [1, -60, 1567, -23262, 214639, -1260240, 4596993, -9522198, 8573040, 0],
+      "label": "A",
+      "members": [
+        {
+          "complement_key": "v2e1-v2e1-v4e3c",
+          "edges": [[0, 1], [0, 2], [0, 3], [1, 2], [4, 5], [6, 7]],
+          "support": 8
+        },
+        {
+          "complement_key": "v3e6-v4e33",
+          "edges": [[0, 1], [0, 2], [1, 3], [2, 3], [4, 5], [4, 6]],
+          "support": 7
+        }
+      ],
+      "sparse_factorization": "x^(n-5)(x-4)(x-3)(x-2)^2(x-1)",
+      "sparse_nonzero_factor_coefficients": [1, -12, 55, -120, 124, -48],
+      "sparse_polynomial_n9": [1, -12, 55, -120, 124, -48, 0, 0, 0, 0],
+      "sparse_spectrum": "{0^(n-5),1,2,2,3,4}",
+      "valid_orders": "all n>=8"
+    },
+    {
+      "dense_complement_factorization": "x(x-n)^(n-6)(x-n+4)(x-n+3)^2(x-n+1)^2",
+      "dense_complement_polynomial_n9": [1, -60, 1566, -23216, 213765, -1251468, 4547988, -9377856, 8398080, 0],
+      "label": "B",
+      "members": [
+        {
+          "complement_key": "v3e6-v4e3c",
+          "edges": [[0, 1], [0, 2], [0, 3], [1, 2], [4, 5], [4, 6]],
+          "support": 7
+        },
+        {
+          "complement_key": "v3e7-v4e34",
+          "edges": [[0, 1], [0, 2], [0, 3], [4, 5], [4, 6], [5, 6]],
+          "support": 7
+        },
+        {
+          "complement_key": "v6e6443",
+          "edges": [[0, 1], [0, 2], [1, 3], [2, 4], [3, 5], [4, 5]],
+          "support": 6
+        }
+      ],
+      "sparse_factorization": "x^(n-5)(x-4)(x-3)^2(x-1)^2",
+      "sparse_nonzero_factor_coefficients": [1, -12, 54, -112, 105, -36],
+      "sparse_polynomial_n9": [1, -12, 54, -112, 105, -36, 0, 0, 0, 0],
+      "sparse_spectrum": "{0^(n-5),1,1,3,3,4}",
+      "valid_orders": "all n>=7"
+    },
+    {
+      "dense_complement_factorization": "x(x-n)^(n-6)(x-n+2)((x-n)^2+5(x-n)+3)((x-n)^2+5(x-n)+5)",
+      "dense_complement_polynomial_n9": [1, -60, 1565, -23168, 212810, -1241394, 4488615, -9192690, 8159697, 0],
+      "label": "C",
+      "members": [
+        {
+          "complement_key": "v2e1-v5e3c4",
+          "edges": [[0, 1], [0, 2], [0, 3], [1, 2], [1, 4], [5, 6]],
+          "support": 7
+        },
+        {
+          "complement_key": "v6e6885",
+          "edges": [[0, 1], [0, 2], [0, 3], [1, 4], [2, 5], [4, 5]],
+          "support": 6
+        }
+      ],
+      "sparse_factorization": "x^(n-5)(x-2)(x^2-5x+3)(x^2-5x+5)",
+      "sparse_nonzero_factor_coefficients": [1, -12, 53, -106, 95, -30],
+      "sparse_polynomial_n9": [1, -12, 53, -106, 95, -30, 0, 0, 0, 0],
+      "sparse_spectrum": "{0^(n-5),2,roots(x^2-5x+3),roots(x^2-5x+5)}",
+      "valid_orders": "all n>=7"
+    }
+  ],
+  "hook_parameter": 1,
+  "hook_partition": "(1^n)",
+  "hook_polynomial": "Phi_1(L(G),x)=det(xI-L(G))",
+  "reason": "L(K_n-H)=nI-J-L(H), so padded Laplacian cospectrality is preserved",
+  "reference_order": 9,
+  "refutation": "The universal six-deletion extension over every hook parameter is false: k=1 already has nonisomorphic cospectral pairs.",
+  "valid_orders": "every n>=8",
+  "witness_payload_sha256": "beac6a8bb28cdf90bc1d47b12f211477036a116805374e32df41d80b2f693a84"
+}
