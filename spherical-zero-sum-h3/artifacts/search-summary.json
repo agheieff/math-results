@@ -1,0 +1,160 @@
+{
+  "bounded_search": {
+    "critical_orientation_counts": {
+      "A3_A3": 3,
+      "H3_A3": 6,
+      "H3_H3": 6
+    },
+    "critical_subsets": [
+      {
+        "best": {
+          "edges": 8,
+          "independence": 8,
+          "ratio": "2/3",
+          "vertices": 12
+        },
+        "cases": 7,
+        "distinct_outcomes": 4,
+        "equality_cases": 6,
+        "name": "A3 critical subsets"
+      },
+      {
+        "best": {
+          "edges": 20,
+          "independence": 20,
+          "ratio": "2/3",
+          "vertices": 30
+        },
+        "cases": 64,
+        "distinct_outcomes": 17,
+        "equality_cases": 9,
+        "name": "H3 plus A3 critical subsets"
+      },
+      {
+        "best": {
+          "edges": 20,
+          "independence": 20,
+          "ratio": "2/3",
+          "vertices": 30
+        },
+        "cases": 63,
+        "distinct_outcomes": 25,
+        "equality_cases": 13,
+        "name": "H3 critical subsets"
+      }
+    ],
+    "generic_offsets": [
+      {
+        "best": {
+          "edges": 40,
+          "independence": 36,
+          "ratio": "9/13",
+          "vertices": 52
+        },
+        "cases": 7,
+        "distinct_outcomes": 4,
+        "equality_cases": 0,
+        "name": "generic-offset A3 clusters"
+      },
+      {
+        "best": {
+          "edges": 96,
+          "independence": 88,
+          "ratio": "44/65",
+          "vertices": 130
+        },
+        "cases": 63,
+        "distinct_outcomes": 25,
+        "equality_cases": 0,
+        "name": "generic-offset H3 clusters"
+      }
+    ],
+    "generic_pairs": {
+      "best": {
+        "edges": 40,
+        "independence": 40,
+        "ratio": "20/29",
+        "vertices": 58
+      },
+      "cases": 3,
+      "distinct_outcomes": 3,
+      "equality_cases": 0,
+      "name": "generic shared-axis pairs"
+    },
+    "mixed": {
+      "best": {
+        "edges": 20,
+        "independence": 20,
+        "ratio": "2/3",
+        "vertices": 30
+      },
+      "cases": 2048,
+      "distinct_outcomes": 304,
+      "equality_cases": 32,
+      "name": "mixed critical subsets"
+    },
+    "natural_orbits": {
+      "group_order": 60,
+      "h3_plus_standard_a3_components": [
+        {
+          "edges": 20,
+          "vertices": 30
+        },
+        {
+          "edges": 8,
+          "vertices": 12
+        },
+        {
+          "edges": 8,
+          "vertices": 12
+        },
+        {
+          "edges": 8,
+          "vertices": 12
+        },
+        {
+          "edges": 8,
+          "vertices": 12
+        },
+        {
+          "edges": 8,
+          "vertices": 12
+        }
+      ],
+      "h3_plus_standard_a3_union": {
+        "edges": 60,
+        "independence": 60,
+        "ratio": "2/3",
+        "vertices": 90
+      },
+      "shared_a3_orbits": 6,
+      "shared_h3_orbits": 6,
+      "shell_unions": 15,
+      "standard_a3_configuration_orbit": 5,
+      "standard_a3_union": {
+        "edges": 40,
+        "independence": 40,
+        "ratio": "2/3",
+        "vertices": 60
+      },
+      "summary": {
+        "best": {
+          "edges": 40,
+          "independence": 40,
+          "ratio": "2/3",
+          "vertices": 60
+        },
+        "cases": 28,
+        "distinct_outcomes": 19,
+        "equality_cases": 12,
+        "name": "natural icosahedral orbits"
+      }
+    }
+  },
+  "h3": {
+    "independence_number": 20,
+    "ratio": "2/3",
+    "vertices": 30,
+    "zero_sum_triples": 20
+  }
+}

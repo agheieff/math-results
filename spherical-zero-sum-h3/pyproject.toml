@@ -1,0 +1,41 @@
+[project]
+name = "spherical-zero-sum-h3"
+version = "0.1.0"
+description = "Exact H3 certificate and bounded spherical zero-sum search"
+requires-python = ">=3.12"
+dependencies = [
+    "ortools>=9.14,<10",
+]
+
+[project.scripts]
+spherical-zero-sum-h3-check = "spherical_zero_sum_h3.cli:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18,<2",
+    "pytest>=8,<9",
+    "ruff>=0.12,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["spherical_zero_sum_h3"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+filterwarnings = [
+    "ignore:Bitwise inversion '~' on bool is deprecated:DeprecationWarning",
+]
