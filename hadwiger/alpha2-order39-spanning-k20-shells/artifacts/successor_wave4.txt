@@ -1,0 +1,26 @@
+format_version=1
+scope=complete_L1_distance_4_shells_from_six_wave3_classes
+universal_status=INCONCLUSIVE
+
+center=1 exact_indexed_transitions=7145 local_unique=11 hall_valid=2
+center=2 exact_indexed_transitions=7133 local_unique=6 hall_valid=1
+center=3 exact_indexed_transitions=7272 local_unique=18 hall_valid=3
+center=4 exact_indexed_transitions=7175 local_unique=17 hall_valid=2
+center=5 exact_indexed_transitions=7251 local_unique=13 hall_valid=2
+center=6 exact_indexed_transitions=7145 local_unique=21 hall_valid=3
+
+hall_union=11
+new_labeled_states=4
+new_graph_isomorphism_classes=4
+
+support 00d 015 023 032 038 04a 051 064 08e 0a8 0b0 0c1 0d0 10e 116 121 141 160 186 203 218 224 248 248 281 310 382 384
+model (0) (1,33) (2,38) (3,26) (4,17) (5,30) (6,29) (7,32) (8,31) (9,22) (10,18) (11,24) (12,21) (13,27) (14,36) (15,28) (16,19) (20,23) (25,37) (34,35)
+support 013 015 015 023 038 049 04a 054 08e 0ac 0b0 0c1 10e 121 150 160 160 186 18c 209 212 224 228 242 281 2c0 310 382
+model (0) (1,28) (2,26) (3,11) (4,34) (5,38) (6,30) (7,24) (8,31) (9,16) (10,21) (12,29) (13,25) (14,22) (15,27) (17,33) (18,37) (19,35) (20,23) (32,36)
+support 013 015 023 029 038 04a 052 058 064 08e 0b0 0c1 10e 121 141 160 186 18c 194 209 218 222 224 244 281 2c0 310 382
+model (0) (1,29) (2,26) (3,18) (4,33) (5,16) (6,20) (7,38) (8,32) (9,35) (10,15) (11,25) (12,30) (13,22) (14,24) (17,21) (19,28) (23,27) (31,36) (34,37)
+support 013 015 023 038 04a 058 064 096 0ac 0b0 0c1 10e 121 121 141 150 186 18a 18c 209 218 222 224 242 244 281 2c0 310
+model (0) (1,20) (2,38) (3,34) (4,26) (5,19) (6,15) (7,24) (8,13) (9,12) (10,17) (11,23) (14,28) (16,31) (18,35) (21,29) (22,32) (25,27) (30,33) (36,37)
+
+all_new_states_explicit_properties=true
+all_new_states_spanning_model=true

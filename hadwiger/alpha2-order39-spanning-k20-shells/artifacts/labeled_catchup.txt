@@ -1,0 +1,15 @@
+format_version=1
+scope=complete_L1_distance_4_shells_from_all_23_previously_unexpanded_labeled_states
+universal_status=INCONCLUSIVE
+
+discovered_before=58
+expanded_before=35
+catchup_centers=23
+center_counts=(7069,64,14);(7123,49,6);(7123,42,7);(7113,63,6);(7123,46,6);(7076,47,8);(7071,55,7);(7064,73,10);(7123,46,6);(7071,56,11);(7136,17,3);(7096,19,5);(7183,15,4);(7071,51,7);(7118,54,8);(7324,20,7);(7324,21,6);(7341,20,6);(7282,19,1);(7341,28,6);(7341,20,6);(7123,49,6);(7127,18,4)
+
+hall_union=99
+new_labeled_states=74
+new_states_sha256=2528fbc54c7a0091387a1ea79969d5c6c3f163474a1f4258e1ca688e2944b28d
+new_graph_isomorphism_classes=33
+all_new_states_explicit_properties=true
+all_new_states_spanning_model=true

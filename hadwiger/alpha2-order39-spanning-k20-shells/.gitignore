@@ -1,0 +1,11 @@
+*
+!*/
+!/.gitignore
+!/README.md
+!/ASSERTION.md
+!/REPORT.md
+!/pyproject.toml
+!/uv.lock
+!/artifacts/**/*.txt
+!/src/**/*.py
+!/tests/**/*.py

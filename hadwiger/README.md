@@ -6,6 +6,9 @@ Verified:
   independence number at most two satisfies Hadwiger's conjecture.
 - [Order 33](alpha2-order33/): the forced \(K_9-e\) has the stated outside
   dominating edge.
+- [Order-39 bounded support shells](alpha2-order39-spanning-k20-shells/):
+  132 audited labeled systems in 82 graph-isomorphism classes satisfy the
+  frozen local hypotheses and have spanning \(K_{20}\)-models.
 
 Refuted intermediate claims:
 

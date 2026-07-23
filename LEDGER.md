@@ -74,6 +74,10 @@ strongest result is retained.
 - The listed local order-39, clique-ten support conditions do not force an outside edge
   dominating the fixed \(K_{10}\)
   ([package](hadwiger/alpha2-order39-support-refutation/)) — **refuted**.
+- The exact bounded order-39 support-shell audit covers 132 labeled systems in
+  82 graph-isomorphism classes; every audited system satisfies the frozen local
+  hypotheses and has a spanning \(K_{20}\)-model
+  ([package](hadwiger/alpha2-order39-spanning-k20-shells/)) — **verified**.
 - For \(k,m\ge3\), \(P(km,k)\) has a half-set with internal boundary exactly \(2m\)
   ([package](zero-forcing-petersen/all-k-boundary/)) — **verified**.
 - Hiary's Turing-checked table contains consecutive zeros with exactly five intervening

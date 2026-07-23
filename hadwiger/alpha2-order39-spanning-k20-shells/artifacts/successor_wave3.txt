@@ -1,0 +1,31 @@
+format_version=1
+scope=complete_L1_distance_4_shells_from_seven_wave2_classes
+universal_status=INCONCLUSIVE
+
+center=1 exact_indexed_transitions=7145 local_unique=11 hall_valid=3
+center=2 exact_indexed_transitions=7204 local_unique=19 hall_valid=3
+center=3 exact_indexed_transitions=7152 local_unique=32 hall_valid=2
+center=4 exact_indexed_transitions=7140 local_unique=24 hall_valid=2
+center=5 exact_indexed_transitions=7162 local_unique=19 hall_valid=3
+center=6 exact_indexed_transitions=7197 local_unique=17 hall_valid=1
+center=7 exact_indexed_transitions=7148 local_unique=20 hall_valid=4
+
+hall_union=13
+new_labeled_states=6
+new_graph_isomorphism_classes=6
+
+support 00d 013 015 023 038 04a 052 058 064 0aa 0b0 0c1 10e 121 141 160 186 18c 194 209 218 222 224 244 281 2c0 310 382
+model (0) (1,18) (2,19) (3,20) (4,21) (5,14) (6,28) (7,24) (8,26) (9,13) (10,23) (11,15) (12,22) (16,27) (17,25) (29,34) (30,31) (32,37) (33,36) (35,38)
+support 00d 013 015 038 04a 052 058 064 0ac 0b0 0c1 10e 121 141 160 186 18a 194 1a2 203 209 218 222 224 244 281 2c0 310
+model (0) (1,22) (2,32) (3,27) (4,16) (5,15) (6,26) (7,28) (8,34) (9,36) (10,14) (11,18) (12,33) (13,21) (17,24) (19,23) (20,37) (25,35) (29,38) (30,31)
+support 00d 015 023 032 038 04a 051 064 08e 0a8 0b0 0c1 0d0 10e 116 121 141 160 186 203 218 224 244 248 281 310 382 388
+model (0) (1,24) (2,15) (3,16) (4,25) (5,29) (6,19) (7,20) (8,33) (9,18) (10,26) (11,38) (12,22) (13,35) (14,31) (17,21) (23,34) (27,37) (28,32) (30,36)
+support 00d 015 023 032 038 04a 051 064 08e 0a8 0b0 0c1 0d0 116 121 141 160 186 18c 203 218 224 244 248 281 30a 310 382
+model (0) (1,31) (2,33) (3,37) (4,14) (5,30) (6,36) (7,35) (8,26) (9,19) (10,11) (12,23) (13,28) (15,25) (16,20) (17,22) (18,34) (21,38) (24,32) (27,29)
+support 013 015 015 023 038 049 04a 054 064 0ac 0b0 0c1 10e 121 150 160 186 18a 18c 209 212 224 228 242 281 2c0 310 382
+model (0) (1,27) (2,19) (3,14) (4,13) (5,29) (6,16) (7,32) (8,11) (9,36) (10,12) (15,23) (17,20) (18,34) (21,24) (22,28) (25,26) (30,37) (31,33) (35,38)
+support 013 015 015 023 038 04a 058 064 0ac 0b0 0c1 10e 121 141 150 186 18a 18c 1a2 209 218 222 224 242 244 281 2c0 310
+model (0) (1,32) (2,38) (3,16) (4,13) (5,29) (6,27) (7,26) (8,14) (9,12) (10,28) (11,21) (15,22) (17,24) (18,35) (19,30) (20,31) (23,25) (33,37) (34,36)
+
+all_new_states_explicit_properties=true
+all_new_states_spanning_model=true

@@ -1,0 +1,47 @@
+[project]
+name = "hadwiger-alpha2-order39-spanning-k20-search"
+version = "0.1.0"
+description = "Exact spanning-K20 search in order-39 support-system graphs"
+requires-python = ">=3.13"
+dependencies = [
+  "ortools>=9.14,<10",
+]
+
+[project.scripts]
+hadwiger-alpha2-order39-spanning-k20-check = "hadwiger_alpha2_order39_spanning_k20_search.verify:main"
+hadwiger-alpha2-order39-spanning-k20-components = "hadwiger_alpha2_order39_spanning_k20_search.component_search:main"
+hadwiger-alpha2-order39-spanning-k20-shells = "hadwiger_alpha2_order39_spanning_k20_search.shell_audit:main"
+hadwiger-alpha2-order39-spanning-k20-successors = "hadwiger_alpha2_order39_spanning_k20_search.successor_search:main"
+hadwiger-alpha2-order39-spanning-k20-successors-2 = "hadwiger_alpha2_order39_spanning_k20_search.successor_wave2:main"
+hadwiger-alpha2-order39-spanning-k20-successors-3 = "hadwiger_alpha2_order39_spanning_k20_search.successor_wave3:main"
+hadwiger-alpha2-order39-spanning-k20-successors-4 = "hadwiger_alpha2_order39_spanning_k20_search.successor_wave4:main"
+hadwiger-alpha2-order39-spanning-k20-successors-5 = "hadwiger_alpha2_order39_spanning_k20_search.successor_wave5:main"
+hadwiger-alpha2-order39-spanning-k20-successors-6 = "hadwiger_alpha2_order39_spanning_k20_search.successor_wave6:main"
+hadwiger-alpha2-order39-spanning-k20-successors-7 = "hadwiger_alpha2_order39_spanning_k20_search.successor_wave7:main"
+hadwiger-alpha2-order39-spanning-k20-labeled-catchup = "hadwiger_alpha2_order39_spanning_k20_search.labeled_catchup:main"
+
+[build-system]
+requires = ["uv_build>=0.11.24,<0.12"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+  "mypy>=1.17,<2",
+  "pytest>=8.4,<9",
+  "ruff>=0.12,<0.13",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+files = ["src", "tests"]
