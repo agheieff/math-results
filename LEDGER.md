@@ -102,3 +102,8 @@ strongest result is retained.
   \(19\) members ([package](union-closed-tight/m19/)) — **verified**.
 - No clean tight union-closed family on \([8]\), containing \(\varnothing\), has exactly
   \(20\) members ([package](union-closed-tight/m20/)) — **verified**.
+- No clean tight union-closed family on \([8]\), containing \(\varnothing\), has exactly
+  \(21\) members ([package](union-closed-tight/m21/)) — **verified**.
+- Hiary's Turing-checked table contains consecutive zeros with exactly five intervening
+  ordinary Gram points whose real-zeta signs are \(+,-,+,-,+\)
+  ([package](riemann-five-gram-run/)) — **verified**.

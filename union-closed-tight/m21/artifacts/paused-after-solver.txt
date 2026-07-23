@@ -1,0 +1,74 @@
+m21 paused after solver — NOT YET VERIFIED
+
+Lane start:
+2026-07-23T19:22:09+02:00
+
+Pause recorded:
+2026-07-23T19:32:09+02:00
+
+Target:
+order=8
+member_count=21
+standing_empty_set=true
+clean=true
+tight_frequency_bound=10
+variables=17792
+clauses=231118
+bytes=4333092
+path=artifacts/order8-members21.cnf
+sha256=765187b5ee37e03b97af226faffda4ec8477770e3eb0523390806b2245270ca4
+
+Completed gates:
+uv_lock=PASS
+pytest=PASS (17/17)
+ruff_check=PASS
+ruff_format=PASS
+mypy_strict=PASS
+symmetry_count=64+64 inputs, bound 64
+
+Solver:
+name=Kissat
+version=4.0.4
+tag=rel-4.0.4
+commit=8af8e56f174b778aef3aa45af9f739b2a5f492c2
+executable=/tmp/arcadia-kissat404/build/kissat
+executable_sha256=43be6166b83812b19e4c83cbbc1536f2772c90c722b24c0d6635707512b45c0e
+command=timeout --signal=TERM 1800s /tmp/arcadia-kissat404/build/kissat --quiet /tmp/order8-members21.cnf /tmp/order8-members21.raw.drat
+status_line=s UNSATISFIABLE
+exit_code=20
+real_seconds=233.61
+user_seconds=171.69
+sys_seconds=0.74
+
+Raw proof:
+path=/tmp/order8-members21.raw.drat
+bytes=356224569
+sha256=fd4b0f913570142412451d6c1c12eecf44d5273be88b7c8c022893d7aeab9301
+replayed=false
+durable_archive=artifacts/order8-members21.raw.drat.xz
+durable_archive_bytes=137261356
+durable_archive_sha256=291902bfab57e048185191d6988dccd3e3e0541b5fb42a4ba67ab7b5137ba84c
+archive_decompression_sha256=fd4b0f913570142412451d6c1c12eecf44d5273be88b7c8c022893d7aeab9301
+
+State:
+The solver returned UNSAT, but the raw proof has not been independently
+replayed. This lane is paused and must not be treated as verified or solved.
+No DRAT trimming, retained-proof replay, LRAT conversion, packaging, or public
+replay has started.
+
+Resume next command:
+xz -dk artifacts/order8-members21.raw.drat.xz
+sha256sum artifacts/order8-members21.raw.drat
+time -p timeout --signal=TERM 1800s \
+  /tmp/arcadia-math-drat-trim/drat-trim \
+  artifacts/order8-members21.cnf \
+  artifacts/order8-members21.raw.drat \
+  -i -l /tmp/order8-members21.trimmed.drat -C
+
+Remaining stages after that command:
+1. Require exit 0 and the exact marker "s VERIFIED".
+2. Hash and replay the trimmed DRAT independently.
+3. Convert the verified trimmed DRAT to LRAT.
+4. Hash and replay LRAT with lrat-check.
+5. Retain compressed DRAT and LRAT with a manifest.
+6. Run the package's fresh public verifier and final static gates.
