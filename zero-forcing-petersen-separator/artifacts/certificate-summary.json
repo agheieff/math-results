@@ -1,0 +1,63 @@
+{
+  "accepting_state_digest_sha256": "a297c0de728646d4968ccc9773a26d45b5a76413368928a62083855f4d0021be",
+  "automaton_digest_sha256": "c0d865280febdcad27e27b87e57517654d5a863b6235a1ff0baf23dbf1e1bb8a",
+  "column_types": 7,
+  "consequences": {
+    "orders": "n >= 17",
+    "pathwidth_lower_bound": 8,
+    "zero_forcing_lower_bound": 8
+  },
+  "exact_minimum_boundary_7_through_16": {
+    "10": 6,
+    "11": 6,
+    "12": 6,
+    "13": 7,
+    "14": 7,
+    "15": 7,
+    "16": 7,
+    "7": 5,
+    "8": 5,
+    "9": 5
+  },
+  "exact_threshold": 17,
+  "finite_excluded_range": [
+    17,
+    98
+  ],
+  "n16_counterexample": {
+    "boundary": [
+      "u2",
+      "u8",
+      "v0",
+      "v1",
+      "v5",
+      "v9",
+      "v10"
+    ],
+    "subset": [
+      "u2",
+      "u3",
+      "u4",
+      "u5",
+      "u6",
+      "u7",
+      "u8",
+      "v0",
+      "v1",
+      "v3",
+      "v4",
+      "v5",
+      "v6",
+      "v7",
+      "v9",
+      "v10"
+    ]
+  },
+  "recurrence": {
+    "decrement": 2,
+    "starts_at": 99
+  },
+  "states": 247,
+  "theorem": "Every n-vertex subset X of P(n,3), for n >= 17, has at least 8 vertices in X adjacent to its complement.",
+  "transitions": 1233
+}
