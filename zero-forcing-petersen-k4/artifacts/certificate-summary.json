@@ -1,0 +1,81 @@
+{
+  "nine_set_census": {
+    "native_source_sha256": "12955d33869272fa7cb3ed339e76a1091a9cd039b0a68442364f7f766185a645",
+    "positive_control": {
+      "cyclic_orbits_tested": 3085368,
+      "first_forcing_witness": [
+        "u15",
+        "u16",
+        "v10",
+        "v11",
+        "v12",
+        "v13",
+        "v14",
+        "v15",
+        "v16"
+      ],
+      "first_forcing_witness_mask": 17045749760,
+      "forcing_orbits": 48100,
+      "n": 17,
+      "replay_digest_sha256": "33263f8e1a983f57f05f9662b7a5bed6241469a01d1a46cc5e407a65614bfc21"
+    },
+    "symmetry": "cyclic rotations of the column word",
+    "target_orders": [
+      {
+        "cyclic_orbits_tested": 5230208,
+        "first_forcing_witness_mask": null,
+        "forcing_orbits": 0,
+        "n": 18,
+        "replay_digest_sha256": "2808d8f325a9ff5c71e176124b299a76bae128a15c6a2b6680c392229c984249"
+      },
+      {
+        "cyclic_orbits_tested": 8579560,
+        "first_forcing_witness_mask": null,
+        "forcing_orbits": 0,
+        "n": 19,
+        "replay_digest_sha256": "ba8ed889b61dc25b0215e1a5452bd5d9ed14f6fea7b955f8a5a0be72a95fc8b3"
+      },
+      {
+        "cyclic_orbits_tested": 13671944,
+        "first_forcing_witness_mask": null,
+        "forcing_orbits": 0,
+        "n": 20,
+        "replay_digest_sha256": "daa728023f3b4ef3755b89beb9375db55a03e1d6c5984404e244d6c95b004aa8"
+      },
+      {
+        "cyclic_orbits_tested": 21232978,
+        "first_forcing_witness_mask": null,
+        "forcing_orbits": 0,
+        "n": 21,
+        "replay_digest_sha256": "4749b3e860792ece995bb830d3e8be055b282dca12240ded4c3e55d97fb8c37a"
+      },
+      {
+        "cyclic_orbits_tested": 32224114,
+        "first_forcing_witness_mask": null,
+        "forcing_orbits": 0,
+        "n": 22,
+        "replay_digest_sha256": "77a397cbf1b05b17ab4285429449ab010d70146097a1d6cef88d4cf5608ea646"
+      }
+    ]
+  },
+  "theorem": "Z(P(n,4))=10 for every integer 18<=n<=22",
+  "uniform_upper_bound": {
+    "initial_set": [
+      "u0",
+      "u1",
+      "u2",
+      "u3",
+      "u4",
+      "u5",
+      "u6",
+      "u7",
+      "v0",
+      "v7"
+    ],
+    "replayed_order_range": [
+      9,
+      200
+    ],
+    "symbolic_proof": "REPORT.md"
+  }
+}
