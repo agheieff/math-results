@@ -1,0 +1,36 @@
+[project]
+name = "unique-multiset-sum"
+version = "0.1.0"
+description = "Dissociation bound for unique multiset sums in finite abelian groups"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+ums-check = "unique_multiset_sum.cli:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18,<2",
+    "pytest>=8,<9",
+    "ruff>=0.12,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["unique_multiset_sum"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
