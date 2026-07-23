@@ -1,0 +1,9 @@
+*
+!*/
+!/.gitignore
+!/README.md
+!/REFUTATION.md
+!/pyproject.toml
+!/uv.lock
+!/src/**/*.py
+!/tests/**/*.py
