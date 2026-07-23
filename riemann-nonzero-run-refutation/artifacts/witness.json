@@ -1,0 +1,42 @@
+{
+  "base_height": "1e25",
+  "sources": {
+    "zeros_url": "https://people.math.osu.edu/hiary.1/outd/1e25.zeros.501_10000501.gz",
+    "zeros_sha256": "a51ed04c71cd594f15df5811560e9c5a5ad9395cffb28803b25edce0ad0e147d",
+    "derivatives_url": "https://people.math.osu.edu/hiary.1/outd/1e25.zeros.501_10000501.der.gz",
+    "derivatives_sha256": "64e202f0ad3c83297ec21bfc04aa1f5326cfa3806e0fbd72dc173a2c42e0db42"
+  },
+  "left": {
+    "row": 218950,
+    "integer_offset": "24742",
+    "fractional_offset": "0.820054547281038548",
+    "derivative": "-46.586124324576864808",
+    "theta_over_pi": "87100328229866724999398818.613436964611696186423546139854431306074361884547955057708854328943406"
+  },
+  "right": {
+    "row": 218951,
+    "integer_offset": "24743",
+    "fractional_offset": "0.226032454997212501",
+    "derivative": "90.631420227538214363",
+    "theta_over_pi": "87100328229866724999398822.214131257026160016245088650250072645659862359368739967739175813361829"
+  },
+  "gram_indices": [
+    "87100328229866724999398819",
+    "87100328229866724999398820",
+    "87100328229866724999398821",
+    "87100328229866724999398822"
+  ],
+  "sign_pattern": "+-+-",
+  "full_scan": {
+    "gaps": 9999999,
+    "gram_count_histogram": {
+      "0": 1607881,
+      "1": 6821983,
+      "2": 1532445,
+      "3": 37634,
+      "4": 56
+    },
+    "forbidden_gaps": 30,
+    "first_forbidden_left_row": 218950
+  }
+}
