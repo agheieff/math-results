@@ -1,0 +1,11 @@
+*
+!*/
+!/.gitignore
+!/README.md
+!/RECONNAISSANCE.md
+!/PRIOR_ART.md
+!/RED_TEAM.md
+!/pyproject.toml
+!/uv.lock
+!/src/**/*.py
+!/tests/**/*.py
