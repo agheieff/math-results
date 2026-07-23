@@ -22,7 +22,7 @@ strongest result is retained.
   \(N\ge2^{n-1}+2\lfloor(n-1)/2\rfloor\)
   ([package](unique-multiset-sum-cyclic/)) — **verified**.
 - The claimed signed spectral minimum and two minimizing switching classes for
-  \(C_{20}(1,2)\) are exact ([package](signed-circulant/)) — **verified**.
+  \(C_{20}(1,2)\) are exact ([package](signed-circulant-n20/)) — **verified**.
 - \(Z(M(C_q))=5\) for every \(q\ge4\)
   ([package](zero-forcing-mycielski/)) — **verified**.
 - The claimed signed spectral minimum and two minimizing switching classes for
