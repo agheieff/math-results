@@ -1,0 +1,42 @@
+{
+  "format_version": 1,
+  "order": 8,
+  "member_count": 16,
+  "variables": 17792,
+  "clauses": 231118,
+  "cnf_sha256": "9b1b28bf74ef19a77310e2c5dcdb1f98ba74e634e8ea33b5daea858e44645676",
+  "drat": {
+    "file": "order8-members16.drat.xz",
+    "compressed_sha256": "8e0a47aea5b230a83f8922c89877009f2053fad5f6ada3d495447c71198611ec",
+    "compressed_bytes": 50306844,
+    "uncompressed_sha256": "e3161b9e550b24821082806592078e7bcdcc942144ffed80c080ce0b524239ce",
+    "uncompressed_bytes": 291048243
+  },
+  "lrat": {
+    "file": "order8-members16.lrat.xz",
+    "compressed_sha256": "d6d2417bed6980a9f92255c777fa4b15215969aa5c5bae328e4c691f2e80d5af",
+    "compressed_bytes": 264889336,
+    "uncompressed_sha256": "c31131d4341e90506c68e8e5a8dbe650061c00b0a05ea7335f0ed1fb58551158",
+    "uncompressed_bytes": 1421687569
+  },
+  "solver": {
+    "path": "/tmp/cadical.yg5jft/build/cadical",
+    "sha256": "d33c27ced2a9273e40e90d060626ca75544dd7debeda027fb93e62cc3d27d095"
+  },
+  "drat_checker": {
+    "path": "/tmp/arcadia-math-drat-trim/drat-trim",
+    "sha256": "879d1e408ba3f59970781c69bb67b823ef5f539f672bbdd1934927ada377cfee"
+  },
+  "lrat_checker": {
+    "path": "/tmp/arcadia-math-drat-trim/lrat-check",
+    "sha256": "9117804c5d07cb7a5e786ab5558e3485dca49762f5458a01ca715893da0d15be"
+  },
+  "timeout_seconds_per_stage": 1800,
+  "stage_wall_seconds": {
+    "cadical": 254.767,
+    "raw_drat_replay_and_trim": 252.271,
+    "trimmed_drat_replay": 189.645,
+    "drat_to_lrat": 198.205,
+    "lrat_replay": 11.269
+  }
+}
