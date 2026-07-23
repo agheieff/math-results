@@ -74,9 +74,6 @@ strongest result is retained.
   ([package](zero-forcing-petersen/k5-eventual/)) — **verified**.
 - \(Z(P(35,6))=14\), and \(Z(P(n,6))=14\) for every \(n\ge37\)
   ([package](zero-forcing-petersen/k6-eventual/)) — **verified**.
-- Hiary's published \(10^{25}\) sample refutes exclusion of the
-  \(+,-,+,-\) four-crossing pattern
-  ([package](riemann-nonzero-run-refutation/)) — **refuted**.
 - Deleting a nonedge from a \((2k-1)\)-vertex \(k\)-critical graph with independence
   number two need not leave a \((k-1)\)-critical graph
   ([package](hadwiger/alpha2-order31/)) — **refuted**.
