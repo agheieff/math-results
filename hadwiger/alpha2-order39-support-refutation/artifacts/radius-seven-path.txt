@@ -1,0 +1,28 @@
+EXACT LOCAL SWITCH SEARCH
+
+Adjacency: exchange one coordinate between each of two support occurrences,
+preserving both support sizes and all coordinate degrees. Retain only systems
+passing support count, incidence, coordinate-degree, outside-degree,
+diameter-two coverage, and disjoint-triple checks.
+
+radius=0 frontier=1 cumulative=1
+radius=1 frontier=5 cumulative=6
+radius=2 frontier=8 cumulative=14
+radius=3 frontier=34 cumulative=48
+radius=4 frontier=119 cumulative=167
+radius=5 frontier=536 cumulative=703
+radius=6 frontier=2270 cumulative=2973
+radius=7 partial_frontier_before_model=5097 cumulative=8070
+
+Path:
+
+0  00d 015 023 029 032 04a 052 058 064 091 0a8 0d0 10e 121 141 160 186 18a 18c 203 218 230 244 244 281 2a4 310 382
+1  00d 015 023 029 032 04a 052 058 064 091 0a8 0d0 10e 121 141 160 186 186 18a 203 218 230 244 244 281 2a4 310 388
+2  00d 015 023 029 04a 052 058 064 091 0a8 0b0 0d0 10e 121 141 160 186 186 18a 203 218 226 230 244 244 281 310 388
+3  00d 015 015 023 029 04a 052 058 064 0a8 0b0 0d0 10e 121 141 160 186 186 18a 203 218 226 230 244 281 2c0 310 388
+4  015 015 023 029 04a 052 058 064 0a8 0b0 0d0 10e 121 141 160 186 186 18a 18c 203 209 218 226 230 244 281 2c0 310
+5  015 015 023 029 04a 052 058 064 0a8 0b0 0d0 10e 121 141 160 186 186 18a 18c 203 209 218 224 232 244 281 2c0 310
+6  015 015 023 029 036 04a 052 058 064 0a8 0b0 0d0 10e 121 141 160 186 18a 18c 203 209 218 224 244 281 2c0 310 382
+7  015 015 023 036 038 049 04a 052 064 0a8 0b0 0d0 10e 121 141 160 186 18a 18c 203 209 218 224 244 281 2c0 310 382
+
+Final exact Hall violations: 0.

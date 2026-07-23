@@ -1,0 +1,21 @@
+CORRECTED RUN — INCONCLUSIVE
+script_sha256=7479edff78201ea10bf357edd75f4f425f2e2f3b64d02d31a07899fd047be07a
+type_count=968
+disjoint_triples_bruteforce=4900
+disjoint_triples_model=4900
+disjoint_triple_sets_equal=true
+
+iteration=1 cuts=0 status=OPTIMAL conflicts=190 violations=27
+iteration=2 cuts=27 status=OPTIMAL conflicts=65 violations=28
+iteration=3 cuts=55 status=OPTIMAL conflicts=403 violations=30
+iteration=4 cuts=85 status=OPTIMAL conflicts=489 violations=28
+iteration=5 cuts=113 status=OPTIMAL conflicts=4615 violations=21
+iteration=6 cuts=134 status=OPTIMAL conflicts=8113 violations=33
+iteration=7 cuts=167 status=OPTIMAL conflicts=8062 violations=33
+iteration=8 cuts=200 status=OPTIMAL conflicts=9084 violations=25
+iteration=9 cuts=225 status=OPTIMAL conflicts=8006 violations=17
+iteration=10 cuts=242 status=OPTIMAL conflicts=7027 violations=27
+iteration=11 cuts=269 status=OPTIMAL conflicts=3371 violations=29
+iteration=12 cuts=298 status=UNKNOWN conflicts=24082
+
+Final status: INCONCLUSIVE. No model and no infeasibility certificate.

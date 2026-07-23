@@ -1,0 +1,39 @@
+[project]
+name = "hadwiger-alpha2-order39-support-search"
+version = "0.1.0"
+description = "Exact support-system countercertificate at the order-39 Hadwiger frontier"
+requires-python = ">=3.13"
+dependencies = [
+  "ortools>=9.14,<10",
+]
+
+[project.scripts]
+hadwiger-alpha2-order39-support-search = "hadwiger_alpha2_order39_support_search.search:solve"
+hadwiger-alpha2-order39-support-search-check = "hadwiger_alpha2_order39_support_search.verify:main"
+hadwiger-alpha2-order39-support-switch-search = "hadwiger_alpha2_order39_support_search.switch_search:main"
+
+[build-system]
+requires = ["uv_build>=0.11.24,<0.12"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+  "mypy>=1.17,<2",
+  "pytest>=8.4,<9",
+  "ruff>=0.12,<0.13",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+files = ["src", "tests"]
