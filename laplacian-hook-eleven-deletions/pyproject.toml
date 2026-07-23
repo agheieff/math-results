@@ -1,0 +1,38 @@
+[project]
+name = "laplacian-hook-eleven-deletions"
+version = "0.1.0"
+description = "Exact exceptional-hook separation through eleven deleted edges"
+requires-python = ">=3.12"
+dependencies = [
+    "pynauty>=2.8.8,<3",
+]
+
+[project.scripts]
+laplacian-hook-eleven-check = "laplacian_hook_eleven_deletions.cli:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18,<2",
+    "pytest>=8,<9",
+    "ruff>=0.12,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["laplacian_hook_eleven_deletions"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
