@@ -1,0 +1,46 @@
+{
+  "blocks": {
+    "even_k_2r": "BA (YY)^r BA (AA)^(r-2)",
+    "odd_k_2r_plus_1": "BA (YY)^r BY (AA)^(r-1)",
+    "sample_k7": [
+      "BA",
+      "YY",
+      "YY",
+      "YY",
+      "BY",
+      "AA",
+      "AA"
+    ],
+    "sample_k8": [
+      "BA",
+      "YY",
+      "YY",
+      "YY",
+      "YY",
+      "BA",
+      "AA",
+      "AA"
+    ]
+  },
+  "finite_replay": {
+    "aggregate_sha256": "bca21234e20738a221b4412ed73beb83c06dcddd390f8367aa234734b1c1539e",
+    "cases": 304,
+    "k_range": [
+      3,
+      40
+    ],
+    "multiplier_range": [
+      3,
+      10
+    ]
+  },
+  "infinite_square_refutation": {
+    "boundary_gap": 2,
+    "replayed_k_range": [
+      6,
+      40
+    ],
+    "statement": "For every k>=6, n=k^2>=6k-1 and a half-set has boundary 2k<2k+2"
+  },
+  "theorem": "For all k,m>=3, P(km,k) has a half-set with exact internal boundary 2m"
+}
