@@ -1,0 +1,13 @@
+*
+!/.gitignore
+!/README.md
+!/THEOREM.md
+!/AUDIT.md
+!/pyproject.toml
+!/uv.lock
+!/src/
+!/src/**
+!/tests/
+!/tests/**
+!/artifacts/
+!/artifacts/**
