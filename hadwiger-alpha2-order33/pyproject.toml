@@ -1,0 +1,35 @@
+[project]
+name = "hadwiger-alpha2-order33"
+version = "0.1.0"
+description = "Local checks for the order-33 independence-two Hadwiger proof"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+hadwiger-alpha2-order33-check = "hadwiger_alpha2_order33.verify:main"
+
+[build-system]
+requires = ["uv_build>=0.11.24,<0.12"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+  "mypy>=1.17,<2",
+  "pytest>=8.4,<9",
+  "ruff>=0.12,<0.13",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+files = ["src", "tests"]
