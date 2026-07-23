@@ -1,0 +1,24 @@
+m18 initial bounded run — nonterminal evidence
+
+CNF SHA-256:
+7663e2133354c68bfee72db4fc1841a1c5ea98060b739afd8bc68635ced6e05c
+
+Command:
+timeout --signal=TERM 1800s cadical --quiet -w result target.cnf raw.drat
+
+Terminal status:
+exit_code=124
+real_seconds=1800.01
+user_seconds=1041.96
+sys_seconds=5.96
+result_file=absent
+
+Incomplete proof trace:
+bytes=1692733440
+sha256=1a98ee87b6f6c41c5d3737f722cc9d529509c23fb5aab1c7ef7d8d0b41e0de7b
+
+Interpretation:
+The run reached its time limit without a SAT or UNSAT status. The incomplete
+proof trace is not a certificate and is retained only as exact timeout
+evidence. An auxiliary Kissat 4.0.4 run returned UNSAT without a proof; that
+output is corroborative only and is not a result.

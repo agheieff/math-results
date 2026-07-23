@@ -1,0 +1,42 @@
+{
+  "format_version": 1,
+  "order": 8,
+  "member_count": 18,
+  "variables": 17792,
+  "clauses": 231118,
+  "cnf_sha256": "7663e2133354c68bfee72db4fc1841a1c5ea98060b739afd8bc68635ced6e05c",
+  "drat": {
+    "file": "order8-members18.drat.xz",
+    "compressed_sha256": "c01a55a15384f2105bb29f77344031f0e3580cbf36e39da55ebd0466a1b17bfc",
+    "compressed_bytes": 31833804,
+    "uncompressed_sha256": "51227ae9ccf3772bd9c5b7ac8f37b4c3086097c922163b223c7cfa4c61a7c5c6",
+    "uncompressed_bytes": 142058484
+  },
+  "lrat": {
+    "file": "order8-members18.lrat.xz",
+    "compressed_sha256": "f1de80784a16e93fdd843aa4069767b2aee7e52f68430bc4eea6ff4c9bc764c1",
+    "compressed_bytes": 181097764,
+    "uncompressed_sha256": "3d53da4411633722d6ff47f017ecdd471fbc64c1d037b95e3a55484ed007ddc1",
+    "uncompressed_bytes": 802739932
+  },
+  "solver": {
+    "path": "/tmp/arcadia-kissat404/build/kissat",
+    "sha256": "43be6166b83812b19e4c83cbbc1536f2772c90c722b24c0d6635707512b45c0e"
+  },
+  "drat_checker": {
+    "path": "/tmp/arcadia-math-drat-trim/drat-trim",
+    "sha256": "879d1e408ba3f59970781c69bb67b823ef5f539f672bbdd1934927ada377cfee"
+  },
+  "lrat_checker": {
+    "path": "/tmp/arcadia-math-drat-trim/lrat-check",
+    "sha256": "9117804c5d07cb7a5e786ab5558e3485dca49762f5458a01ca715893da0d15be"
+  },
+  "timeout_seconds_per_stage": 1800,
+  "stage_wall_seconds": {
+    "solver": 282.57,
+    "raw_drat_replay_and_trim": 298.19,
+    "trimmed_drat_replay": 212.73,
+    "drat_to_lrat": 212.71,
+    "lrat_replay": 9.24
+  }
+}

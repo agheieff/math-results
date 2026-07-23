@@ -1,0 +1,23 @@
+m18 redundant CaDiCaL run — nonterminal corroboration
+
+CNF SHA-256:
+7663e2133354c68bfee72db4fc1841a1c5ea98060b739afd8bc68635ced6e05c
+
+Command:
+timeout --signal=TERM 7200s cadical --quiet -w result target.cnf raw.drat
+
+Terminal status:
+exit_code=143
+real_seconds=852.73
+user_seconds=472.28
+sys_seconds=2.89
+result_file=absent
+
+Incomplete proof trace:
+bytes=835346432
+sha256=9692c6210b1f1c570e090a9fb79c18138ccedfb9606380d76df46662c4dee5b4
+
+Interpretation:
+This redundant run was terminated after an independent proof-producing
+Kissat run had returned UNSAT and drat-trim had verified its raw DRAT.
+The incomplete CaDiCaL trace is not a certificate and is not retained.
