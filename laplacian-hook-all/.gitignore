@@ -1,0 +1,16 @@
+*
+!.gitignore
+!README.md
+!THEOREM.md
+!PRIOR_ART.md
+!CERTIFICATE.md
+!RED_TEAM.md
+!pyproject.toml
+!uv.lock
+!src/
+!src/**/
+!src/**/*.py
+!src/**/py.typed
+!tests/
+!tests/**/
+!tests/**/*.py

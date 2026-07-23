@@ -1,0 +1,39 @@
+[project]
+name = "laplacian-hook-all"
+version = "0.1.0"
+description = "Corrected all-hook theorem for almost-complete graphs"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+laplacian-hook-all-check = "laplacian_hook_all.cli:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18,<2",
+    "pytest>=8,<9",
+    "ruff>=0.12,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/laplacian_hook_all"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+files = ["src", "tests"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
