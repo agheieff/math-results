@@ -1,0 +1,11 @@
+*
+!*/
+!/.gitignore
+!/DEPENDENCIES.md
+!/PRIOR_ART.md
+!/PROOF.md
+!/README.md
+!/pyproject.toml
+!/uv.lock
+!/src/**/*.py
+!/tests/**/*.py
