@@ -1,0 +1,35 @@
+[project]
+name = "zero-forcing-petersen-all-orders"
+version = "0.1.0"
+description = "Exact certificates proving Z(P(n,3)) = 8 for every n at least 13"
+requires-python = ">=3.12"
+
+[project.scripts]
+zero-forcing-petersen-all-orders-check = "zero_forcing_petersen_all_orders.cli:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18,<2",
+    "pytest>=8,<9",
+    "ruff>=0.12,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["zero_forcing_petersen_all_orders"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
