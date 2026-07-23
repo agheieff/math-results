@@ -90,6 +90,9 @@ strongest result is retained.
   ([package](hadwiger/alpha2-order35-omega9/)) — **refuted**.
 - Every graph on at most \(38\) vertices with independence number at most two satisfies
   Hadwiger's conjecture ([package](hadwiger/alpha2-order37/)) — **verified**.
+- The listed local order-39, clique-ten support conditions do not force an outside edge
+  dominating the fixed \(K_{10}\)
+  ([package](hadwiger/alpha2-order39-support-refutation/)) — **refuted**.
 - For \(k,m\ge3\), \(P(km,k)\) has a half-set with internal boundary exactly \(2m\)
   ([package](zero-forcing-petersen/all-k-boundary/)) — **verified**.
 - \(Z(P(n,8))=18\) for every \(n\ge65\)
@@ -104,6 +107,8 @@ strongest result is retained.
   \(20\) members ([package](union-closed-tight/m20/)) — **verified**.
 - No clean tight union-closed family on \([8]\), containing \(\varnothing\), has exactly
   \(21\) members ([package](union-closed-tight/m21/)) — **verified**.
+- No clean tight union-closed family on \([8]\), containing \(\varnothing\), has exactly
+  \(22\) members ([package](union-closed-tight/m22/)) — **verified**.
 - Hiary's Turing-checked table contains consecutive zeros with exactly five intervening
   ordinary Gram points whose real-zeta signs are \(+,-,+,-,+\)
   ([package](riemann-five-gram-run/)) — **verified**.
