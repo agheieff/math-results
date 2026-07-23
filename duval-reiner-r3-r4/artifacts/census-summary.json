@@ -1,0 +1,290 @@
+{
+  "census": {
+    "certificate_digest_sha256": "74b47f2d0cf7ccb8c64f7f733a6892218816c6392e479fe1a3df7bd7f4a998ee",
+    "indices": {
+      "3": {
+        "certificate_methods": {
+          "factor-trace": 498,
+          "rational-root-upper-bound": 1626,
+          "trace": 12
+        },
+        "exact_status_counts": {
+          "equality": 510,
+          "strict": 1626
+        },
+        "exact_violation_masks": [],
+        "hardest_numerically_strict_case": {
+          "characteristic_polynomial": [
+            1,
+            -24,
+            235,
+            -1206,
+            3463,
+            -5484,
+            4364,
+            -1344,
+            0
+          ],
+          "degree_sum": 16,
+          "facets": [
+            [0, 1, 2],
+            [0, 1, 3],
+            [0, 1, 4],
+            [0, 1, 5],
+            [0, 2, 3],
+            [0, 3, 5],
+            [1, 2, 3],
+            [1, 2, 4]
+          ],
+          "index": 3,
+          "lower_bound": "362731527/22705186",
+          "mask": 3359,
+          "numerical_gap": 0.024286605411539597,
+          "upper_bound": "1783801/111657"
+        },
+        "numerical_screen_candidates": 0,
+        "numerical_screen_max_defect": 0.0
+      },
+      "4": {
+        "certificate_methods": {
+          "factor-trace": 282,
+          "rational-root-upper-bound": 1821,
+          "trace": 33
+        },
+        "exact_status_counts": {
+          "equality": 315,
+          "strict": 1821
+        },
+        "exact_violation_masks": [],
+        "hardest_numerically_strict_case": {
+          "characteristic_polynomial": [
+            1,
+            -30,
+            380,
+            -2644,
+            11020,
+            -28192,
+            43729,
+            -39276,
+            18468,
+            -3456,
+            0
+          ],
+          "degree_sum": 22,
+          "facets": [
+            [0, 1, 2],
+            [0, 1, 3],
+            [0, 1, 4],
+            [0, 1, 5],
+            [0, 2, 3],
+            [0, 2, 5],
+            [0, 3, 4],
+            [0, 3, 5],
+            [1, 2, 3],
+            [1, 2, 4]
+          ],
+          "index": 4,
+          "lower_bound": "17555386/798275",
+          "mask": 3551,
+          "numerical_gap": 0.008346470849929233,
+          "upper_bound": "2191997/99674"
+        },
+        "numerical_screen_candidates": 0,
+        "numerical_screen_max_defect": 0.0
+      }
+    },
+    "isomorphism_classes": 2136,
+    "labeled_families": 1048576,
+    "maximum_root_isolation_denominator": 100000,
+    "possible_facets": 20,
+    "vertex_count": 6
+  },
+  "next_boundary": {
+    "enumerated": false,
+    "isomorphism_classes_burnside": 7013320,
+    "labeled_families": 34359738368,
+    "possible_facets": 35,
+    "vertex_count": 7
+  },
+  "paper_seed_audit": [
+    {
+      "certificate": {
+        "characteristic_polynomial": [
+          1,
+          -48,
+          1024,
+          -12814,
+          104614,
+          -586842,
+          2323167,
+          -6571884,
+          13322757,
+          -19252804,
+          19545126,
+          -13545574,
+          6073060,
+          -1579858,
+          180075,
+          0,
+          0
+        ],
+        "factors": [
+          {
+            "coefficients": [1, -3],
+            "exponent": 1
+          },
+          {
+            "coefficients": [1, 0],
+            "exponent": 2
+          },
+          {
+            "coefficients": [1, -7],
+            "exponent": 3
+          },
+          {
+            "coefficients": [1, -1],
+            "exponent": 5
+          },
+          {
+            "coefficients": [1, -19, 133, -413, 527, -175],
+            "exponent": 1
+          }
+        ],
+        "isolation_denominator": 100000,
+        "partial_sums": [
+          {
+            "degree_sum": 21,
+            "exact_sum": "21",
+            "index": 3,
+            "lower_bound": "21",
+            "method": "factor-trace",
+            "status": "equality",
+            "upper_bound": "21"
+          },
+          {
+            "degree_sum": 28,
+            "index": 4,
+            "lower_bound": "12767/470",
+            "method": "rational-root-upper-bound",
+            "status": "strict",
+            "upper_bound": "17575/647"
+          },
+          {
+            "degree_sum": 33,
+            "index": 5,
+            "lower_bound": "170611/5170",
+            "method": "rational-root-lower-bound",
+            "status": "violation",
+            "upper_bound": "40972825/1241593"
+          }
+        ]
+      },
+      "degrees": [4, 13, 8, 6, 4, 6, 7],
+      "facets": 16,
+      "name": "F16",
+      "numerical_partial_sums": {
+        "3": 21.0,
+        "4": 27.16382997907572,
+        "5": 33.000196339360215
+      }
+    },
+    {
+      "certificate": {
+        "characteristic_polynomial": [
+          1,
+          -45,
+          897,
+          -10427,
+          78291,
+          -397213,
+          1383346,
+          -3289284,
+          5199592,
+          -5165280,
+          2878848,
+          -677376,
+          0,
+          0,
+          0,
+          0
+        ],
+        "factors": [
+          {
+            "coefficients": [1, -7],
+            "exponent": 1
+          },
+          {
+            "coefficients": [1, -2],
+            "exponent": 1
+          },
+          {
+            "coefficients": [1, -6],
+            "exponent": 2
+          },
+          {
+            "coefficients": [1, -4],
+            "exponent": 2
+          },
+          {
+            "coefficients": [1, 0],
+            "exponent": 4
+          },
+          {
+            "coefficients": [1, -16, 91, -224, 233, -84],
+            "exponent": 1
+          }
+        ],
+        "isolation_denominator": 100000,
+        "partial_sums": [
+          {
+            "degree_sum": 20,
+            "index": 3,
+            "lower_bound": "2789/143",
+            "method": "rational-root-upper-bound",
+            "status": "strict",
+            "upper_bound": "19484/999"
+          },
+          {
+            "degree_sum": 26,
+            "index": 4,
+            "lower_bound": "3647/143",
+            "method": "rational-root-upper-bound",
+            "status": "strict",
+            "upper_bound": "25478/999"
+          },
+          {
+            "degree_sum": 41,
+            "index": 8,
+            "lower_bound": "946268941/23079628",
+            "method": "rational-root-lower-bound",
+            "status": "violation",
+            "upper_bound": "2100797461/51238710"
+          },
+          {
+            "degree_sum": 43,
+            "index": 9,
+            "lower_bound": "992428197/23079628",
+            "method": "rational-root-lower-bound",
+            "status": "violation",
+            "upper_bound": "2203274881/51238710"
+          }
+        ]
+      },
+      "degrees": [5, 5, 10, 10, 2, 7, 6],
+      "facets": 15,
+      "name": "F15",
+      "numerical_partial_sums": {
+        "3": 19.503499165481976,
+        "4": 25.503499165481973,
+        "8": 41.00019633936022,
+        "9": 43.00019633936022
+      }
+    }
+  ],
+  "scope": {
+    "exact_census_through_vertices": 6,
+    "uniformity_searched": 3,
+    "unresolved_universal_indices": [3, 4]
+  },
+  "source": "arXiv:2607.20051v1"
+}

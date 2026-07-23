@@ -1,0 +1,43 @@
+[project]
+name = "duval-reiner-r3-r4"
+version = "0.1.0"
+description = "Exact small-order census for the unresolved Duval-Reiner r=3,4 inequalities"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2,<3",
+    "sympy>=1.14,<2",
+]
+
+[project.scripts]
+duval-reiner-r3-r4-check = "duval_reiner_r3_r4.cli:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18,<2",
+    "pytest>=8,<9",
+    "ruff>=0.12,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["duval_reiner_r3_r4"]
+
+[[tool.mypy.overrides]]
+module = ["sympy", "sympy.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
