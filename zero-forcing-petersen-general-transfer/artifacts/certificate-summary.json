@@ -1,0 +1,22 @@
+{
+  "theorems": [
+    "Z(P(n,k))<=2k+2 for k>=1 and n>=2k+1",
+    "P(n-k,k) is a topological minor of P(n,k) for k>=1 and n>=3k+1"
+  ],
+  "replay_grid": {
+    "maximum_k": 12,
+    "maximum_n": 120
+  },
+  "upper_witness": {
+    "cases": 1284,
+    "aggregate_sha256": "4c51a9ade0f9cbacee2c82925188d88fef6c39061a983f5e784154f83364bab5"
+  },
+  "k_column_minor": {
+    "cases": 1206,
+    "aggregate_sha256": "5e20e3b271d5aa67327d49a178f0b6e92b10169b899754fd529202c67d4123e1"
+  },
+  "residue_transfer": {
+    "cases": 1284,
+    "aggregate_sha256": "d9204da2295bd38bddba8761191f5d6ee44279e3df3130f0a683a0dce4d8c8f8"
+  }
+}
