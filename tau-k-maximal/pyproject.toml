@@ -1,0 +1,36 @@
+[project]
+name = "tau-k-maximal"
+version = "0.1.0"
+description = "Proof audit and exhaustive checker for tau_k-maximal graphs"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+tau-k-check = "tau_k_maximal.cli:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18,<2",
+    "pytest>=8,<9",
+    "ruff>=0.12,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["tau_k_maximal"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

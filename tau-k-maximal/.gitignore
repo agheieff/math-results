@@ -1,0 +1,14 @@
+*
+!.gitignore
+!README.md
+!REPORT.md
+!PRIOR_ART.md
+!pyproject.toml
+!uv.lock
+!src/
+!src/**/
+!src/**/*.py
+!src/**/py.typed
+!tests/
+!tests/**/
+!tests/**/*.py
