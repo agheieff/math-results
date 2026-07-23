@@ -1,0 +1,17 @@
+*
+!.gitignore
+!README.md
+!REPORT.md
+!pyproject.toml
+!uv.lock
+!src/
+!src/**/
+!src/**/*.py
+!src/**/py.typed
+!tests/
+!tests/**/
+!tests/**/*.py
+!certificates/
+!certificates/**/
+!certificates/manifest.json
+!certificates/*.drat.xz
