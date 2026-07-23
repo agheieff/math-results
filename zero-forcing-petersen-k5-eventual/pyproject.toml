@@ -1,0 +1,35 @@
+[project]
+name = "zero-forcing-petersen-k5-eventual"
+version = "0.1.0"
+description = "Exact eventual zero forcing theorem for generalized Petersen graphs P(n,5)"
+requires-python = ">=3.12"
+
+[project.scripts]
+zero-forcing-petersen-k5-eventual-check = "zero_forcing_petersen_k5_eventual.cli:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18,<2",
+    "pytest>=8,<9",
+    "ruff>=0.12,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["zero_forcing_petersen_k5_eventual"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
