@@ -1,0 +1,38 @@
+[project]
+name = "riemann-five-gram-run"
+version = "0.1.0"
+description = "Certificate for five ordinary Gram points between consecutive zeta zeros"
+requires-python = ">=3.12"
+
+[project.scripts]
+riemann-five-gram-check = "riemann_five_gram_run.cli:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18,<2",
+    "pytest>=8,<9",
+    "ruff>=0.12,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/riemann_five_gram_run"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["riemann_five_gram_run"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

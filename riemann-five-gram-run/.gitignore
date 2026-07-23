@@ -1,0 +1,11 @@
+*
+!*/
+!/.gitignore
+!/README.md
+!/RESULT.md
+!/pyproject.toml
+!/uv.lock
+!/artifacts/*.json
+!/src/**/*.py
+!/src/**/py.typed
+!/tests/**/*.py
