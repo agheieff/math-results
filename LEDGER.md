@@ -6,7 +6,7 @@ strongest result is retained.
 - Every tournament on at most \(13\) vertices has a strong Seymour vertex
   ([package](strong-seymour/)) — **verified**.
 - No clean tight union-closed family on \([8]\), containing \(\varnothing\), has between
-  \(2\) and \(22\) members ([packages](union-closed-tight/)) — **verified**.
+  \(2\) and \(23\) members ([packages](union-closed-tight/)) — **verified**.
 - For odd \(k\ge9\), the Ghafari--Wanless square \(H_{4k}\) has four transversals with
   empty common intersection and no two disjoint transversals
   ([package](latin-transversals/)) — **verified**.

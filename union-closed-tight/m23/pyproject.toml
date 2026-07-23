@@ -1,0 +1,39 @@
+[project]
+name = "union-closed-tight-m23"
+version = "0.1.0"
+description = "Order-eight clean tight union-closed gate at exactly 23 members"
+requires-python = ">=3.12"
+dependencies = ["python-sat==1.9.dev7"]
+
+[project.scripts]
+uctight-m23 = "union_closed_tight_m23.cli:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18,<2",
+    "pytest>=8,<9",
+    "ruff>=0.12,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/union_closed_tight_m23"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["union_closed_tight_m23"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
